@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+    <link rel="shortcut icon" href="img/colcheia.png">
+    <title>Partitura</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="area-notas">
+        </div>
+
+        <div id="area-btn">
+            <button class="btn-nota" id="dó" value="0" onclick="escolheNota('dó')">Dó</button>
+            <button class="btn-nota" id="ré" value="1" onclick="escolheNota('ré')">Ré</button>
+            <button class="btn-nota" id="mi" value="2" onclick="escolheNota('mi')">Mi</button>
+            <button class="btn-nota" id="fa" value="3" onclick="escolheNota('fa')">Fá</button>
+            <button class="btn-nota" id="sol" value="4" onclick="escolheNota('sol')">Sol</button>
+            <button class="btn-nota" id="la" value="5" onclick="escolheNota('la')">Lá</button>
+            <button class="btn-nota" id="sí" value="6" onclick="escolheNota('sí')">Sí</button>
+            
+            <button class="btn-verifica" onclick="verificaNota()">
+                Verificar
+            </button>
+            <button class="btn-nova-nota" onclick="geraNota()">
+                Nova Nota
+            </button>
+            
+
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

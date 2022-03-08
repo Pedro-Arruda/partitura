@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+.container {
+    border: 0.1px solid white;
+    background: url('img/partitura.png') no-repeat center;
+}
+
+.container #area-btn {
+    margin-left: 480px;
+    margin-top: 10px;
+}
+
+.container #area-notas {
+    width: 600px;
+    margin-left: 680px;
+    margin-top: 260px;
+    height: 105px;
+    float: center;
+}
+
+#area-btn .btn-nota {
+    padding: 10px;
+    width: 100px;
+    background-color: #0275d8;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 30px 20px;
+}
+
+#area-btn .btn-nota:hover {
+    background-color: blue;
+}
+
+#area-btn .btn-nota:focus {
+    background-color: blue;
+}
+
+#area-btn .btn-verifica {
+    padding: 10px;
+    width: 665px;
+    margin: 30px 20px;
+    background-color: #5cb85c;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    height: 50px;
+
+}
+
+#area-btn .btn-nova-nota {
+    width: 250px;
+    padding: 10px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(167, 164, 164);
+    color: rgba(255, 255, 255, 0.842);
+    cursor: pointer;
+
+}
+
+#area-btn .btn-verifica:hover {
+    background-color: #43a143;
+}
+
+.nota-aleatoria {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
